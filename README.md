@@ -43,3 +43,43 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 - Check form submissions weekly; deliver requested signs
 - Post endorsements/photos as they come in (edit `index.html`, push)
 - See `campaign-plan.md` for the full 11-week campaign timeline
+
+## Launch process at a glance
+
+```mermaid
+flowchart TD
+    subgraph step1 ["Step 1 — Content from Mark (~20 min)"]
+        A[Headshot → images/mark-booth.jpg] --> B[Fill in bio placeholders in index.html]
+        B --> C["Confirm 'Paid for by…' disclaimer"]
+        C --> D[Set a real contact email in footer]
+    end
+
+    subgraph step2 ["Step 2 — Yard-sign form (~5 min)"]
+        E[Create free Web3Forms key with Mark's email] --> F[Paste key into form in index.html]
+    end
+
+    subgraph step3 ["Step 3 — Deploy (~10 min, free)"]
+        G[Create/log in to Cloudflare account] --> H["! npx wrangler login"]
+        H --> I["npx wrangler pages deploy . --project-name votemarkbooth"]
+        I --> J([🚀 LIVE at votemarkbooth.pages.dev])
+    end
+
+    subgraph step4 ["Step 4 — Domain (optional today, ~$12/yr)"]
+        K[Register votemarkbooth.com — Mark pays] --> L[Attach domain to Pages project]
+        L --> M[Optional: email forwarding for info@]
+    end
+
+    subgraph step5 ["Step 5 — Final check (~5 min)"]
+        N[Open on Mark's phone — no placeholders left] --> O[Test sign form → email arrives]
+        O --> P[Mark posts link on Facebook]
+    end
+
+    step1 --> step2 --> step3 --> step4 --> step5
+
+    subgraph deferred ["Deferred — doesn't block launch"]
+        Q[Anedot donation account → Donate button href]
+        R["Official Ward 2 map from Clerk of Court (318) 327-1444 → replace OSM embed"]
+    end
+
+    step5 -.-> deferred
+```
