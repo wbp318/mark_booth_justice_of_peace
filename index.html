@@ -6,12 +6,14 @@
 <title>Mark Booth for Justice of the Peace — Ward 2, Ouachita Parish</title>
 <meta name="description" content="Elect Mark Booth for Justice of the Peace, Ward 2, Ouachita Parish. Fair, accessible, community-focused justice. Election Day: November 3, 2026.">
 <style>
+  /* Scheme B: hunter green / gold. Original patriotic scheme kept below — swap the values to revert.
+     Scheme A (original): --navy:#1b2a4a; --navy-dark:#12203a; --red:#b22234; --gold:#c9a227; */
   :root {
-    --navy: #1b2a4a;
-    --navy-dark: #12203a;
-    --red: #b22234;
-    --cream: #f7f5f0;
-    --gold: #c9a227;
+    --navy: #1e3a2c;
+    --navy-dark: #142a1f;
+    --red: #9c2b19;
+    --cream: #f6f4ec;
+    --gold: #d4a72c;
     --text: #2b2b2b;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -52,6 +54,13 @@
   .btn:hover { background: #971c2c; }
   .btn-outline { background: transparent; border: 2px solid #fff; }
   .btn-outline:hover { background: rgba(255,255,255,0.12); }
+  .btn-donate-header {
+    background: #fff; color: var(--red);
+    padding: 0.55rem 1.3rem; margin-left: 1.25rem;
+    text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.9rem;
+    border-radius: 3px;
+  }
+  .btn-donate-header:hover { background: var(--cream); color: var(--red); }
 
   .hero {
     background: linear-gradient(rgba(18,32,58,0.82), rgba(18,32,58,0.82)),
@@ -153,7 +162,7 @@
     <a href="#values">Priorities</a>
     <a href="#signs">Get a Sign</a>
     <a href="#vote">Voting Info</a>
-    <a href="#donate" class="btn" style="padding:0.45rem 1.1rem; margin-left:1.25rem;">Donate</a>
+    <a href="#donate" class="btn btn-donate-header">♥ Make a Donation</a>
   </nav>
 </header>
 
