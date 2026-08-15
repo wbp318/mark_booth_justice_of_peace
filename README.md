@@ -18,6 +18,7 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 - [ ] Mark opens an Anedot account (needs campaign bank account) → paste donation URL into the Donate button `href`
 - [ ] Create a free Web3Forms account → paste access key into the yard-sign form's hidden field, test a submission
 - [ ] Confirm final campaign disclaimer wording with Mark ("Paid for by …")
+- [ ] Get the official JP Ward 2 boundary map from the Ouachita Parish Clerk of Court, (318) 327-1444 (no digital version exists online — Census data only has police-jury districts). Save as `images/ward2-map.png` and swap it in for the OpenStreetMap embed in the "Are You in Ward 2?" section
 
 ### Week 2 — Domain & deploy
 - [ ] Register domain (votemarkbooth.com or similar, ~$12/yr) via Cloudflare Registrar
