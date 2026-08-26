@@ -2,84 +2,56 @@
 
 Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouachita Parish, LA. Election: November 3, 2026.
 
-- `index.html` — single-page campaign site (deploy to Cloudflare Pages)
+- `index.html` — single-page campaign site
 - `campaign-plan.md` — campaign plan and timeline
 
-## 🚀 LAUNCH TODAY — do these in order while Mark is here
+**Live site:** https://wbp318.github.io/mark_booth_justice_of_peace/ (GitHub Pages, deploys automatically on every push to `main`)
 
-### Step 1 — Content from Mark (~20 min, in Claude Code)
-1. **Headshot**: take a photo of Mark now if he doesn't have one (good light, plain background, nice shirt). Save it as `images/mark-booth.jpg` in this folder.
-2. **Bio**: ask Mark and fill in every `[placeholder]` in the About section of `index.html` — years in the parish, profession, wife's name, kids, church/community involvement, credentials.
-3. **Disclaimer**: confirm the exact "Paid for by …" wording with Mark (footer of `index.html`).
-4. **Email**: footer says `info@votemarkbooth.com` — if that won't exist yet, change it to an email Mark actually checks.
+## ✅ Done (as of Aug 26, 2026)
+- [x] Site built, bio and headshot added, launched on GitHub Pages
+- [x] Repo public, HTTPS enabled
 
-### Step 2 — Yard-sign form (~5 min)
-1. Go to https://web3forms.com → enter Mark's email → copy the access key.
-2. Paste it into the `access_key` hidden field in the form in `index.html` (replaces `YOUR_WEB3FORMS_ACCESS_KEY`).
-3. Submit a test through the form after deploy; confirm the email arrives.
+## 📋 Remaining checklist
 
-### Step 3 — Deploy to Cloudflare (~10 min, free)
-1. Create/log into a Cloudflare account (free) at dash.cloudflare.com.
-2. In the terminal here: type `! npx wrangler login` and approve in the browser.
-3. Then tell Claude to deploy — or run: `npx wrangler pages deploy . --project-name votemarkbooth`
-4. You get a live URL immediately: `https://votemarkbooth.pages.dev`. **The site is launched.**
+### Blocked on Mark's new campaign Gmail (do these the day we get it)
+- [ ] Replace `info@votemarkbooth.com` contact links in `index.html` (donate section + footer) with the Gmail — or keep info@ and forward it (see Domain step)
+- [ ] Create free Web3Forms access key at https://web3forms.com using the Gmail; paste into the yard-sign form's `access_key` field (currently `YOUR_WEB3FORMS_ACCESS_KEY` — **the form does not send email until this is done**)
+- [ ] Submit a test through the live form; confirm the email arrives in the Gmail
 
-### Step 4 — Domain (~10 min, ~$12/yr, optional today)
-1. Cloudflare dashboard → Domain Registration → register `votemarkbooth.com` (Mark pays — campaign expense).
-2. Workers & Pages → votemarkbooth project → Custom domains → add the domain.
-3. Optional: Email Routing (free) → forward `info@votemarkbooth.com` to Mark's inbox.
+### Content still needed from Mark
+- [ ] Family pictures — add a photo section to the site
+- [ ] Confirm exact "Paid for by Mark Booth Campaign" disclaimer wording (footer + all future printed material)
+- [ ] Wife's name / any bio details Mark wants added or corrected after reading the live page
 
-### Step 5 — Final check before sharing the link (~5 min)
-- [ ] Open the live URL on Mark's phone: photo shows, bio reads right, no `[placeholders]` left
-- [ ] Test the yard-sign form; confirm Mark gets the email
-- [ ] Mark posts the link on Facebook
+### Domain (~$12/yr, recommended before printing signs)
+- [ ] Register `votemarkbooth.com` (Cloudflare or Porkbun; Mark pays — campaign expense)
+- [ ] DNS: A records `185.199.108.153 / .109. / .110. / .111.153` for apex; CNAME `www` → `wbp318.github.io`
+- [ ] GitHub repo → Settings → Pages → set custom domain (Claude can do this via `gh`)
+- [ ] Registrar email forwarding: `info@votemarkbooth.com` → campaign Gmail
+- [ ] Put the domain (not the github.io URL) on all printed material
 
-### Deferred (fine to do later — placeholders already handle these)
-- **Donations**: Mark opens an Anedot account (needs the campaign bank account) → paste the URL into the Donate button `href` in `index.html`, push to `main`. Until then the site says "coming soon / checks payable to Mark Booth Campaign."
-- **Official Ward 2 map**: get it from the Clerk of Court, (318) 327-1444 (no digital version exists online). Save as `images/ward2-map.png` and swap for the OpenStreetMap embed.
-- **Updates**: any push to `main` — Cloudflare redeploys automatically once connected. Or redeploy with the wrangler command in Step 3.
+### Donations
+- [ ] Open campaign bank account (needed before accepting online donations)
+- [ ] Set up Anedot (or similar) → paste URL into the Donate button `href` in `index.html`
+- [ ] Until then the site correctly says "coming soon / checks payable to Mark Booth Campaign"
+
+### Site polish (Claude can do anytime)
+- [ ] Compress `images/mark-booth-headshot.png` (currently 1.8 MB — slow on phones)
+- [ ] Official Ward 2 boundary map from the Clerk of Court, (318) 327-1444 (no digital copy online) → save as `images/ward2-map.png`, replace the OpenStreetMap embed
+- [ ] Update hero tagline/values with any wording Mark prefers after reviewing
+
+### Compliance (Mark's responsibility — see campaign-plan.md §2)
+- [ ] Qualify for the ballot with the Clerk of Court during the official qualifying period (verify dates with the Secretary of State)
+- [ ] Louisiana Ethics Administration campaign finance registration + reports on schedule
+- [ ] "Paid for by" disclaimer on every sign, push card, ad, and the site (site already has it)
+
+### Promotion (see campaign-plan.md for the full timeline — key items)
+- [ ] Facebook page "Mark Booth for Justice of the Peace" — matters more than the website for a local race; post the site link
+- [ ] Order yard signs + push cards NOW (print shops back up before elections) — wait only for the domain to print it on them
+- [ ] List of 50–100 Ward 2 people Mark knows → first sign locations
+- [ ] 3–5 endorsements from well-known Ward 2 figures
 
 ## After launch (ongoing)
 - Check form submissions weekly; deliver requested signs
-- Post endorsements/photos as they come in (edit `index.html`, push)
-- See `campaign-plan.md` for the full 11-week campaign timeline
-
-## Launch process at a glance
-
-```mermaid
-flowchart TD
-    subgraph step1 ["Step 1 — Content from Mark (~20 min)"]
-        A[Headshot → images/mark-booth.jpg] --> B[Fill in bio placeholders in index.html]
-        B --> C["Confirm 'Paid for by…' disclaimer"]
-        C --> D[Set a real contact email in footer]
-    end
-
-    subgraph step2 ["Step 2 — Yard-sign form (~5 min)"]
-        E[Create free Web3Forms key with Mark's email] --> F[Paste key into form in index.html]
-    end
-
-    subgraph step3 ["Step 3 — Deploy (~10 min, free)"]
-        G[Create/log in to Cloudflare account] --> H["! npx wrangler login"]
-        H --> I["npx wrangler pages deploy . --project-name votemarkbooth"]
-        I --> J([🚀 LIVE at votemarkbooth.pages.dev])
-    end
-
-    subgraph step4 ["Step 4 — Domain (optional today, ~$12/yr)"]
-        K[Register votemarkbooth.com — Mark pays] --> L[Attach domain to Pages project]
-        L --> M[Optional: email forwarding for info@]
-    end
-
-    subgraph step5 ["Step 5 — Final check (~5 min)"]
-        N[Open on Mark's phone — no placeholders left] --> O[Test sign form → email arrives]
-        O --> P[Mark posts link on Facebook]
-    end
-
-    step1 --> step2 --> step3 --> step4 --> step5
-
-    subgraph deferred ["Deferred — doesn't block launch"]
-        Q[Anedot donation account → Donate button href]
-        R["Official Ward 2 map from Clerk of Court (318) 327-1444 → replace OSM embed"]
-    end
-
-    step5 -.-> deferred
-```
+- Post endorsements/photos as they come in (edit `index.html`, push to `main` — the site redeploys automatically)
+- Follow the weekly rhythm in `campaign-plan.md` §4
