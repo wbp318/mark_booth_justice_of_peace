@@ -13,7 +13,7 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 
 ## 📋 Remaining checklist
 
-### Blocked on Mark's new campaign Gmail (do these the day we get it)
+### Campaign Gmail is set up — do these now
 - [ ] Replace `info@votemarkbooth.com` contact links in `index.html` (donate section + footer) with the Gmail — or keep info@ and forward it (see Domain step)
 - [ ] Create free Web3Forms access key at https://web3forms.com using the Gmail; paste into the yard-sign form's `access_key` field (currently `YOUR_WEB3FORMS_ACCESS_KEY` — **the form does not send email until this is done**)
 - [ ] Submit a test through the live form; confirm the email arrives in the Gmail
@@ -27,11 +27,11 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 - [ ] Register `votemarkbooth.com` (Cloudflare or Porkbun; Mark pays — campaign expense)
 - [ ] DNS: A records `185.199.108.153 / .109. / .110. / .111.153` for apex; CNAME `www` → `wbp318.github.io`
 - [ ] GitHub repo → Settings → Pages → set custom domain (Claude can do this via `gh`)
-- [ ] Registrar email forwarding: `info@votemarkbooth.com` → campaign Gmail
+- [x] Registrar email forwarding: `info@votemarkbooth.com` → campaign Gmail
 - [ ] Put the domain (not the github.io URL) on all printed material
 
 ### Donations
-- [ ] Open campaign bank account (needed before accepting online donations)
+- [x] Open campaign bank account (needed before accepting online donations)
 - [ ] Set up Anedot (or similar) → paste URL into the Donate button `href` in `index.html`
 - [ ] Until then the site correctly says "coming soon / checks payable to Mark Booth Campaign"
 
