@@ -4,6 +4,7 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 
 - `index.html` — single-page campaign site
 - `campaign-plan.md` — campaign plan and timeline
+- `facebook-ads/` — Facebook ads strategy ([strategy.md](facebook-ads/strategy.md)) and ready-to-paste ad copy ([ad-copy.md](facebook-ads/ad-copy.md))
 
 **Live site:** https://wbp318.github.io/mark_booth_justice_of_peace/ (GitHub Pages, deploys automatically on every push to `main`)
 
@@ -51,6 +52,32 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 - [ ] Order yard signs + push cards NOW (print shops back up before elections) — wait only for the domain to print it on them
 - [ ] List of 50–100 Ward 2 people Mark knows → first sign locations
 - [ ] 3–5 endorsements from well-known Ward 2 figures
+
+## 📣 Facebook ads strategy (summary — full plan in [`facebook-ads/strategy.md`](facebook-ads/strategy.md))
+
+**Budget $300–500. Goal: name recognition + turnout in Ward 2. Nothing else.**
+
+| Phase | Dates | Spend | Runs |
+|---|---|---|---|
+| A. Warm-up | Sept 15–30 | ~$50 ($3–5/day) | Boost "why I'm running" video to Ward 2 ZIPs |
+| B. Name recognition | Oct 1–19 | ~$150 ($8–10/day) | Face + name + office ads, optimize for reach |
+| C. Early voting | Oct 20–27 | ~$140 ($15–20/day) | "Early voting is open" with locations/hours |
+| D. GOTV | Oct 28–Nov 3 | ~$150 ($20–25/day) | "Tuesday is Election Day," peak Nov 2–3 |
+| Reserve | Dec 5 runoff | $50–100 | Rerun C+D if there's a runoff |
+
+**Setup — start now, authorization takes days:**
+- [ ] Create the Facebook Page (Politician category), post 3–4 things
+- [ ] Meta political-ad authorization (ID + mailed code): https://www.facebook.com/id
+- [ ] Create disclaimer "Paid for by Mark Booth Campaign" in Ads Manager
+- [ ] Payment method = campaign bank account card; download invoices monthly for Ethics reports
+- [ ] Get Ward 2 ZIP codes / pin radius from the official boundary map — **no paid ads until this is known**
+- [ ] Optional: Meta Pixel on the site (Claude can add it)
+
+**Targeting:** Ward 2 ZIPs only, ages 30–65+, Facebook + Instagram Feed placements only. Facebook can't target by voter file or "Ward 2" — geography is all you get.
+
+**Creative:** every ad = Mark's face + "MARK BOOTH — Justice of the Peace, Ward 2 — Nov 3." Phone video beats polished. Never negative. Five ready-to-paste ads in [`facebook-ads/ad-copy.md`](facebook-ads/ad-copy.md).
+
+**Measure:** reach and frequency (want 3–6 by Nov 3), CPM ($5–12 normal). Ignore clicks. Reply to every comment.
 
 ## After launch (ongoing)
 - Check form submissions weekly; deliver requested signs
