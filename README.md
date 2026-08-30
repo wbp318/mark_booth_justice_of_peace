@@ -28,7 +28,7 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 ### Domain (~$12/yr, recommended before printing signs)
 - [x] Register `votemarkbooth.com` (Cloudflare, campaign card — Aug 30, 2026)
 - [x] DNS: A records + `www` CNAME added in Cloudflare (DNS only / grey cloud)
-- [x] GitHub Pages custom domain set to votemarkbooth.com; HTTPS enforcement pending cert issuance
+- [x] GitHub Pages custom domain set to votemarkbooth.com; HTTPS enforced (cert issued Aug 30, 2026 — http:// redirects to https://)
 - [x] Cloudflare Email Routing activated; `info@` rule + destination added — **waiting on Mark to click the verification email in the campaign Gmail** (then send a test to info@votemarkbooth.com)
 - [x] Registrar email forwarding: `info@votemarkbooth.com` → campaign Gmail
 - [ ] Put the domain (not the github.io URL) on all printed material
