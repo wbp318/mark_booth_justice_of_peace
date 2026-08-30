@@ -14,9 +14,10 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 ## 📋 Remaining checklist
 
 ### Campaign Gmail is set up — do these now
-- [ ] Replace `info@votemarkbooth.com` contact links in `index.html` (donate section + footer) with the Gmail — or keep info@ and forward it (see Domain step)
-- [ ] Create free Web3Forms access key at https://web3forms.com using the Gmail; paste into the yard-sign form's `access_key` field (currently `YOUR_WEB3FORMS_ACCESS_KEY` — **the form does not send email until this is done**)
-- [ ] Submit a test through the live form; confirm the email arrives in the Gmail
+- [x] Keep `info@votemarkbooth.com` on the site (forwards to campaign Gmail)
+- [x] Web3Forms access key added to the yard-sign form (Aug 30, 2026) — form is live. Dashboard account: wbp71270@gmail.com; submissions currently go there
+- [ ] Submit a test through the live form; confirm the email arrives
+- [ ] Later: point submissions at the campaign Gmail — Web3Forms form → Settings → notification email (needs a verification click from the campaign inbox), or set up Gmail forwarding from wbp71270
 
 ### Content still needed from Mark
 - [ ] Family pictures — add a photo section to the site
