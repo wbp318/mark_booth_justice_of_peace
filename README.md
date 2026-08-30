@@ -6,7 +6,7 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 - `campaign-plan.md` — campaign plan and timeline
 - `facebook-ads/` — Facebook ads strategy ([strategy.md](facebook-ads/strategy.md)), ready-to-paste ad copy ([ad-copy.md](facebook-ads/ad-copy.md)), and step-by-step setup for ad authorization + Pixel ([setup-instructions.md](facebook-ads/setup-instructions.md))
 
-**Live site:** https://wbp318.github.io/mark_booth_justice_of_peace/ (GitHub Pages, deploys automatically on every push to `main`)
+**Live site:** https://votemarkbooth.com (GitHub Pages, deploys automatically on every push to `main`; wbp318.github.io/mark_booth_justice_of_peace redirects here)
 
 ## ✅ Done (as of Aug 26, 2026)
 - [x] Site built, bio and headshot added, launched on GitHub Pages
@@ -26,9 +26,10 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 - [ ] Wife's name / any bio details Mark wants added or corrected after reading the live page
 
 ### Domain (~$12/yr, recommended before printing signs)
-- [ ] Register `votemarkbooth.com` (Cloudflare or Porkbun; Mark pays — campaign expense)
-- [ ] DNS: A records `185.199.108.153 / .109. / .110. / .111.153` for apex; CNAME `www` → `wbp318.github.io`
-- [ ] GitHub repo → Settings → Pages → set custom domain (Claude can do this via `gh`)
+- [x] Register `votemarkbooth.com` (Cloudflare, campaign card — Aug 30, 2026)
+- [x] DNS: A records + `www` CNAME added in Cloudflare (DNS only / grey cloud)
+- [x] GitHub Pages custom domain set to votemarkbooth.com; HTTPS enforcement pending cert issuance
+- [ ] Cloudflare Email Routing: create `info@` → campaign Gmail (Mark clicks the verification email)
 - [x] Registrar email forwarding: `info@votemarkbooth.com` → campaign Gmail
 - [ ] Put the domain (not the github.io URL) on all printed material
 

@@ -1,6 +1,6 @@
 # Ad Copy — ready to paste into Ads Manager
 
-All ads: image = Mark's headshot or a ward photo with "MARK BOOTH — Justice of the Peace, Ward 2 — Nov 3" text overlay. Disclaimer: "Paid for by Mark Booth Campaign." Landing page: https://wbp318.github.io/mark_booth_justice_of_peace/ (swap to votemarkbooth.com once registered).
+All ads: image = Mark's headshot or a ward photo with "MARK BOOTH — Justice of the Peace, Ward 2 — Nov 3" text overlay. Disclaimer: "Paid for by Mark Booth Campaign." Landing page: https://votemarkbooth.com
 
 Edit freely — Mark's own voice beats anything below. Keep the name in the first sentence.
 
