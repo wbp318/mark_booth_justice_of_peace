@@ -4,7 +4,7 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 
 - `index.html` — single-page campaign site
 - `campaign-plan.md` — campaign plan and timeline
-- `facebook-ads/` — Facebook ads strategy ([strategy.md](facebook-ads/strategy.md)) and ready-to-paste ad copy ([ad-copy.md](facebook-ads/ad-copy.md))
+- `facebook-ads/` — Facebook ads strategy ([strategy.md](facebook-ads/strategy.md)), ready-to-paste ad copy ([ad-copy.md](facebook-ads/ad-copy.md)), and step-by-step setup for ad authorization + Pixel ([setup-instructions.md](facebook-ads/setup-instructions.md))
 
 **Live site:** https://wbp318.github.io/mark_booth_justice_of_peace/ (GitHub Pages, deploys automatically on every push to `main`)
 
@@ -67,11 +67,11 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 
 **Setup — start now, authorization takes days:**
 - [ ] Create the Facebook Page (Politician category), post 3–4 things
-- [ ] Meta political-ad authorization (ID + mailed code): https://www.facebook.com/id
-- [ ] Create disclaimer "Paid for by Mark Booth Campaign" in Ads Manager
+- [ ] **Meta political-ad authorization — start today, a code is MAILED (3–7 days):** https://www.facebook.com/id → Confirm identity → "Ads about social issues, elections or politics" → upload ID → enter a US mailing address → enter the code when the letter arrives. Turn on 2FA. Full steps: [setup-instructions.md §1](facebook-ads/setup-instructions.md)
+- [ ] Create disclaimer "Paid for by Mark Booth Campaign" in Ads Manager (can do while waiting for the letter)
 - [ ] Payment method = campaign bank account card; download invoices monthly for Ethics reports
 - [ ] Get Ward 2 ZIP codes / pin radius from the official boundary map — **no paid ads until this is known**
-- [ ] Optional: Meta Pixel on the site (Claude can add it)
+- [ ] **Meta Pixel (instant, nothing mailed):** https://business.facebook.com/events_manager → Connect Data Sources → Web → name it → copy the 15–16 digit Pixel ID → paste it to Claude, who adds it to `index.html`. Full steps: [setup-instructions.md §2](facebook-ads/setup-instructions.md)
 
 **Targeting:** Ward 2 ZIPs only, ages 30–65+, Facebook + Instagram Feed placements only. Facebook can't target by voter file or "Ward 2" — geography is all you get.
 
