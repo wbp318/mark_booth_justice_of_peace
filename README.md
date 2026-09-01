@@ -21,7 +21,7 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 - [ ] Later: point submissions at the campaign Gmail — Web3Forms form → Settings → notification email (needs a verification click from the campaign inbox), or set up Gmail forwarding from wbp71270
 
 ### Content still needed from Mark
-- [ ] Family pictures — add a photo section to the site
+- [x] Family photo added to Meet Mark section (color-corrected, Sept 1, 2026)
 - [ ] Confirm exact "Paid for by Mark Booth Campaign" disclaimer wording (footer + all future printed material)
 - [ ] Wife's name / any bio details Mark wants added or corrected after reading the live page
 
