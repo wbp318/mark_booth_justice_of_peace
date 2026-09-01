@@ -35,7 +35,11 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 
 ### Donations
 - [x] Open campaign bank account (needed before accepting online donations)
-- [ ] Set up Anedot (or similar) → paste URL into the Donate button `href` in `index.html`
+- [ ] Set up Anedot → paste URL into the Donate button `href` in `index.html` (Claude wires it in):
+  1. anedot.com → Get Started → org type Political/Candidate → name "Mark Booth Campaign" (match bank account)
+  2. Connect the campaign bank account (payouts go there); fill in candidate/committee compliance info (Louisiana)
+  3. Create a donation page ($25/$50/$100/$250 suggested amounts, headshot) → copy its URL → give to Claude
+  4. Anedot fee: 4% + 30¢/donation; account verification may take 1–2 days
 - [ ] Until then the site correctly says "coming soon / checks payable to Mark Booth Campaign"
 
 ### Site polish (Claude can do anytime)
@@ -81,6 +85,6 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 **Measure:** reach and frequency (want 3–6 by Nov 3), CPM ($5–12 normal). Ignore clicks. Reply to every comment.
 
 ## After launch (ongoing)
-- Check form submissions weekly; deliver requested signs
+- Check info@votemarkbooth.com for yard-sign requests (form removed Sept 1, 2026 due to spam; replaced with email CTA); deliver requested signs
 - Post endorsements/photos as they come in (edit `index.html`, push to `main` — the site redeploys automatically)
 - Follow the weekly rhythm in `campaign-plan.md` §4
