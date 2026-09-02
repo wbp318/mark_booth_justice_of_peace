@@ -14,15 +14,14 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 
 ## 📋 Remaining checklist
 
-### Campaign Gmail is set up — do these now
-- [x] Keep `info@votemarkbooth.com` on the site (forwards to campaign Gmail)
-- [x] Web3Forms access key added to the yard-sign form (Aug 30, 2026) — form is live. Dashboard account: wbp71270@gmail.com; submissions currently go there
-- [ ] Submit a test through the live form; confirm the email arrives
-- [ ] Later: point submissions at the campaign Gmail — Web3Forms form → Settings → notification email (needs a verification click from the campaign inbox), or set up Gmail forwarding from wbp71270
+### Contact / yard-sign requests
+- [x] `info@votemarkbooth.com` on the site (donate section, sign section, footer)
+- [x] Yard-sign web form removed Sept 1, 2026 (spam) — replaced with an email CTA to info@. Web3Forms account (wbp71270@gmail.com) is unused; delete the form there if you like
+- [ ] Once Mark verifies the Cloudflare destination, send a test email to info@ and confirm it lands in the campaign Gmail
 
 ### Content still needed from Mark
 - [x] Family photo added to Meet Mark section (color-corrected, Sept 1, 2026)
-- [ ] Confirm exact "Paid for by Mark Booth Campaign" disclaimer wording (footer + all future printed material)
+- [ ] Confirm exact disclaimer wording with Mark — site, Anedot, and ad docs now all use **"Paid for by Mark Booth Campaign"** (footer previously said "the Mark Booth Campaign")
 - [ ] Wife's name / any bio details Mark wants added or corrected after reading the live page
 
 ### Domain (~$12/yr, recommended before printing signs)
@@ -43,11 +42,12 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 - [ ] Until then the site correctly says "coming soon / checks payable to Mark Booth Campaign"
 
 ### Site polish (Claude can do anytime)
-- [ ] Compress `images/mark-booth-headshot.png` (currently 1.8 MB — slow on phones)
+- [x] Headshot compressed to JPG (Sept 1, 2026); Open Graph/Twitter share image + favicon added
 - [ ] Official Ward 2 boundary map from the Clerk of Court, (318) 327-1444 (no digital copy online) → save as `images/ward2-map.png`, replace the OpenStreetMap embed
 - [ ] Update hero tagline/values with any wording Mark prefers after reviewing
 
 ### Compliance (Mark's responsibility — see campaign-plan.md §2)
+- [ ] Verify voter-registration deadlines on the site against sos.la.gov: site says Oct 5 (mail/in person) and Oct 13 (online); Louisiana's rule is 30 / 20 days before the election, which computes to Oct 4 / Oct 14 — confirm which the SOS publishes
 - [ ] Qualify for the ballot with the Clerk of Court during the official qualifying period (verify dates with the Secretary of State)
 - [ ] Louisiana Ethics Administration campaign finance registration + reports on schedule
 - [ ] "Paid for by" disclaimer on every sign, push card, ad, and the site (site already has it)

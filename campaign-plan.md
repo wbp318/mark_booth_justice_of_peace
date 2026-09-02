@@ -42,8 +42,8 @@ Fund it through: personal funds (candidates can give unlimited to their own camp
 ## 3. Timeline
 
 ### Phase 1 — Foundation (Aug 15 – Sept 7)
-- [ ] Get a good headshot (nice shirt, plain background — a phone photo in good light works)
-- [ ] Write the real bio and fill in website placeholders; launch site at votemarkbooth.com
+- [x] Get a good headshot (nice shirt, plain background — a phone photo in good light works)
+- [x] Write the real bio and fill in website placeholders; launch site at votemarkbooth.com
 - [ ] Set up donation processing (Anedot or similar) and link it on the site
 - [ ] Create **Facebook page** ("Mark Booth for Justice of the Peace") — this matters more than the website for a local race
 - [ ] Order yard signs and push cards NOW (print shops back up before elections)
