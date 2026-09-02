@@ -35,7 +35,7 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 
 ### Donations
 - [x] Open campaign bank account (needed before accepting online donations)
-- [ ] Set up Anedot → paste URL into the Donate button `href` in `index.html` (Claude wires it in):
+- [ ] Set up Anedot → paste URL into the Donate button `href` in `index.html` (Claude wires it in). **In progress Sept 1, 2026:** account created under wbp71270@gmail.com, org "Mark Booth Campaign" application partly filled; stalled at Tax ID — waiting on Mark to get an EIN (irs.gov/ein → Political Organization, free/instant) since the bank account used his SSN. Steps:
   1. anedot.com → Get Started → org type Political/Candidate → name "Mark Booth Campaign" (match bank account)
   2. Connect the campaign bank account (payouts go there); fill in candidate/committee compliance info (Louisiana)
   3. Create a donation page ($25/$50/$100/$250 suggested amounts, headshot) → copy its URL → give to Claude
