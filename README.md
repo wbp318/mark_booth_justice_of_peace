@@ -21,7 +21,7 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 
 ### Content still needed from Mark
 - [x] Family photo added to Meet Mark section (color-corrected, Sept 1, 2026)
-- [ ] Confirm exact disclaimer wording with Mark — site, Anedot, and ad docs now all use **"Paid for by Mark Booth Campaign"** (footer previously said "the Mark Booth Campaign")
+- [ ] Confirm exact disclaimer wording with Mark — site and ad docs now all use **"Paid for by Mark Booth Campaign"** (footer previously said "the Mark Booth Campaign")
 - [ ] Wife's name / any bio details Mark wants added or corrected after reading the live page
 
 ### Domain (~$12/yr, recommended before printing signs)
@@ -34,12 +34,8 @@ Campaign website and plan for Mark Booth — Justice of the Peace, Ward 2, Ouach
 
 ### Donations
 - [x] Open campaign bank account (needed before accepting online donations)
-- [ ] Set up Anedot → paste URL into the Donate button `href` in `index.html` (Claude wires it in). **In progress Sept 1, 2026:** account created under wbp71270@gmail.com, org "Mark Booth Campaign" application partly filled; stalled at Tax ID — waiting on Mark to get an EIN (irs.gov/ein → Political Organization, free/instant) since the bank account used his SSN. Steps:
-  1. anedot.com → Get Started → org type Political/Candidate → name "Mark Booth Campaign" (match bank account)
-  2. Connect the campaign bank account (payouts go there); fill in candidate/committee compliance info (Louisiana)
-  3. Create a donation page ($25/$50/$100/$250 suggested amounts, headshot) → copy its URL → give to Claude
-  4. Anedot fee: 4% + 30¢/donation; account verification may take 1–2 days
-- [ ] Until then the site correctly says "coming soon / checks payable to Mark Booth Campaign"
+- [x] ~~Anedot~~ dropped Sept 2, 2026 (too much hassle — required an EIN). Going with a simple Venmo link instead.
+- [ ] **Get Mark's Venmo username** → Claude replaces `VENMO-HANDLE` (2 places in `index.html`: button href + the "@" text). Button opens `https://venmo.com/u/<username>`. Tip: set the Venmo profile to a business/campaign name so donors see "Mark Booth Campaign", and keep a log of donor name/address from the payment notes for compliance.
 
 ### Site polish (Claude can do anytime)
 - [x] Headshot compressed to JPG (Sept 1, 2026); Open Graph/Twitter share image + favicon added
